@@ -46,7 +46,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>king.pipeline.Application</mainClass>
+                    <mainClass>com.cicd.Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>
@@ -62,7 +62,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>king.pipeline.Application</mainClass>
+                            <mainClass>com.cicd.Application</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
